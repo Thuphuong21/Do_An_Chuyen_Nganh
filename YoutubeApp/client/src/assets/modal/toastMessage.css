@@ -1,0 +1,27 @@
+.toastMessage{
+    padding:15px 20px;
+    display: flex;
+    width: 300px;
+    max-width: 300px;
+    justify-content: center;
+    align-items: center;
+    background-color: #be4b49;
+    border-radius:900px;
+    color:white ;
+    animation :ShowError 1s linear forwards;
+}
+
+@keyframes ShowError {
+    0%{
+        transform: translate(100%,100%);
+    }
+    15%{
+        transform: translate(-5%,100%);            
+    }
+    85%{
+        transform: translate(-5%,100%);            
+    }
+    100%{
+        transform: translate(100%,100%);
+    }
+}
